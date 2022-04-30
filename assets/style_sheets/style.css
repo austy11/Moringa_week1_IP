@@ -1,10 +1,270 @@
-/*This is the main style sheet to be used by the browser*/
-img {
-    width: 300px;
-    height: 200px;
-    display: block;
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
   }
-
-ul{
+.cursor{
+    cursor: pointer;
+}
+.pink{
+    color: #EC4067;
+}
+.blackish{
+    color: #252E35;
+}
+/* Section one */
+.secOne{
+    width: 100%;
+    padding-bottom: 30px;
+    height: fit-content;
+    background-color: white;
+}
+/* nav */
+.navbar{
+    width: 90%;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.navbar .menulink{
+    text-decoration: none;
+    color: black;
+}
+.navbar .menuItems{
+    list-style: none;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+.navbar ul{
+    display: flex;
+}
+.logo{
+    font-size: 27px;
+}
+.pinkButton{
+    background-color: #EC4067;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+/* 2nd part */
+.partTwo{
+    width: 76%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.rightSide{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overall{
+    width: 90%;
+    height: fit-content;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.twoButtons{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn1{
+    background-color: #EC4067;
+    color: white;
+    width: 45%;
+    border: none;
+    padding: 10px 0;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.btn2{
+    background-color: white;
+    color: #EC4067;
+    width: 45%;
+    border: solid #EC4067 1px;
+    padding: 10px 0;
+    font-size: 17px;
+}
+.btn3{
+    background-color: #EC4067;
+    color: white;
+    width: 100px;
+    border: none;
+    padding: 10px 0;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.leftSide{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.p3{
+    width: 75%;
+    margin: 25px 0;
+    align-items: center;
+    font-size: 18px;
+}
+.leftSide img{
+    width: 80%;
+    height: 80%;
+}
+/* end of part 2 */
+/* part 3 */
+.part3{
+    width: 76%;
+    margin: auto;
+    margin-top: 6em;
+}
+.greybackground{
+    background-color: rgba(128,128,128, 0.2);
+}
+.main{
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.withImage{
+    width: 50%;
+    height: 350px;
+    background-image: url(/assets/img/image\ 2.png);
+    background-size: cover;
+}
+.withImage2{
+    width: 50%;
+    height: 350px;
+    background-image: url(/assets/img/image\ 3.png);
+    background-size: cover;
+}
+.withImage3{
+    width: 50%;
+    height: 350px;
+    background-image: url(/assets/img/image\ 4.png);
+    background-size: cover;
+}
+.withoutImage{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.inside{
+    width: 100%;
+    height: 80%;
+}
+.d1{
+    font-size: 23px;
+    font-weight: bold;
+}
+.d2{
+    width: 80%;
+    font-size: 17px;
+    margin: 45px 0;
+}
+/* end of part 3 */
+/* part 4 */
+.part4{
+    width: 76%;
+    margin: auto;
+    margin-top: 6em; 
+}
+.techMain{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.desc{
+    width: 23%;
+    height: fit-content;
+}
+.getIn{
+    width: 90%;
+    margin: auto;
+}
+.desc1{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.desc1 img{
+    width: 100%;
+    height: 100%;
+}
+.desc2{
+    margin: 20px 0;
+}
+.desc3{
+    margin: 20px 0;
+}
+.part5{
+    width: 100%;
+    margin: 7 em 0;
+    
+}
+.projhead{
+    padding-top: 30px;
+}
+.sep{
+    width: 100%;
+    display: flex;
+}
+.leftp{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+}
+.rightp{
+    width: 65%;
+    max-height: 100px;
+    }
+
+.projtext{
+
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+.withsample{
+    width: 65%;
+    height: 390px;
+    background-image: url(/assets/img/image\ 9.png);
+    background-size: cover;
+}
+.enquiries{
+    width: 100%;
+}
+p{
+    padding: 10px;
+    font-size: 30px;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+    justify-content: center;
+    font-size: large;
+    background-color: rgba(128,128,128, 0.2);
 }
