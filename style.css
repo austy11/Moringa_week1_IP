@@ -152,7 +152,7 @@
 .withImage{
     width: 50%;
     height: 350px;
-    background-image: url(/assets/img/image\ 2.png);
+    background-image: url(image\ 2.png);
     background-size: cover;
 }
 .transparent{
@@ -193,13 +193,13 @@
 .withImage2{
     width: 50%;
     height: 350px;
-    background-image: url(/assets/img/image\ 3.png);
+    background-image: url(image\ 3.png);
     background-size: cover;
 }
 .withImage3{
     width: 50%;
     height: 350px;
-    background-image: url(/assets/img/image\ 4.png);
+    background-image: url(image\ 4.png);
     background-size: cover;
 }
 .withoutImage{
@@ -316,7 +316,7 @@
 .withsample{
     width: 70%;
     height: 400px;
-    background-image: url(/assets/img/image\ 9.png);
+    background-image: url(image\ 9.png);
     background-size: cover;
 }
 .enquiries{
