@@ -61,6 +61,11 @@
     border-radius: 5px;
 }
 /* 2nd part */
+.sectionheadings{
+    font-size: xx-large;
+    font-weight: 500;
+    padding-right: 10px;
+}
 .partTwo{
     width: 76%;
     margin: auto;
