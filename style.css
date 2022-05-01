@@ -161,7 +161,7 @@
 .withImage{
     width: 50%;
     height: 350px;
-    background-image: url(image\ 2.png);
+    background-image: url(/assests/imgs/image2.png);
     background-size: cover;
 }
 .transparent{
@@ -202,13 +202,13 @@
 .withImage2{
     width: 50%;
     height: 350px;
-    background-image: url(image\ 3.png);
+    background-image: url(/assests/imgs/image3.png);
     background-size: cover;
 }
 .withImage3{
     width: 50%;
     height: 350px;
-    background-image: url(image\ 4.png);
+    background-image: url(/assests/imgs/image4.png);
     background-size: cover;
 }
 .withoutImage{
@@ -303,7 +303,7 @@
 .withImage9{
     width: 60%;
     height: 360px;
-    background-image: url(image\ 9.png);
+    background-image: url(/assests/imgs/image9.png);
     background-size: cover;
 }
 .projtext{
