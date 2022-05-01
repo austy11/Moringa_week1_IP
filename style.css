@@ -294,16 +294,18 @@
 .sep{
     width: 100%;
     display: flex;
+    margin-top: 3em;
 }
 .leftp{
-    width: 35%;
-    display: flex;
+    width: 40%;
     align-items: center;
 }
-.rightp{
-    width: 65%;
-    max-height: 100px;
-    }
+.withImage9{
+    width: 60%;
+    height: 360px;
+    background-image: url(image\ 9.png);
+    background-size: cover;
+}
 .projtext{
 
     width: 40%;
@@ -318,12 +320,6 @@
      font-size: 30px;
      font-weight: 400;
     padding-top: 20px;    
-}
-.withsample{
-    width: 70%;
-    height: 400px;
-    background-image: url(image\ 9.png);
-    background-size: cover;
 }
 .enquiries{
     width: 100%;
