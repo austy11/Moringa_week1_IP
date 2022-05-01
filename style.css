@@ -19,7 +19,7 @@
 .blackish{
     color: #252E35;
 }
-/* Section one */
+/* SecOne*/
 .secOne{
     width: 100%;
     padding-bottom: 30px;
@@ -38,6 +38,10 @@
 .navbar .menulink{
     text-decoration: none;
     color: black;
+}
+.menulink{
+    text-decoration: none;
+    color: white;
 }
 .navbar .menuItems{
     list-style: none;
@@ -60,7 +64,7 @@
     font-size: 15px;
     border-radius: 5px;
 }
-/* 2nd part */
+/*part 2*/
 .sectionheadings{
     font-size: xx-large;
     font-weight: 500;
@@ -120,7 +124,7 @@
     padding: 10px 0;
     font-size: 17px;
     border-radius: 5px;
-}
+    }
 .leftSide{
     width: 40%;
     height: 400px;
@@ -138,8 +142,8 @@
     width: 80%;
     height: 80%;
 }
-/* end of part 2 */
-/* part 3 */
+/* end of part2*/
+/* part3 */
 .part3{
     width: 76%;
     margin: auto;
@@ -283,7 +287,6 @@
     width: 100%;
     padding-top: 100px;
     margin: 7 em 0;
-    
 }
 .projhead{
     padding-top: 30px;
@@ -297,12 +300,10 @@
     display: flex;
     align-items: center;
 }
-}
 .rightp{
     width: 65%;
     max-height: 100px;
     }
-
 .projtext{
 
     width: 40%;
@@ -331,7 +332,6 @@
 p{
     padding: 10px;
     font-size: 30px; 
-    
 }
 .textp{
     padding: 40px 0;
